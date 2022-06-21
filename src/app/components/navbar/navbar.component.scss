@@ -1,0 +1,45 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  height: 10vh;
+  background-color: transparent;
+  
+
+  .divlogo {
+    .logo {
+      width: 150px;
+      padding-top: 20px;
+      padding-left: 40px;
+    }
+  }
+  .divnavbar {
+    display: flex;
+    flex-direction: row;
+    flex:3;
+    .list {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      gap: 20px;
+      padding-top: 40px;
+      padding-left: 10px;
+    }
+  }
+
+  .divicons {
+    display: flex;
+    flex-direction: row;
+    img {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 40px;
+        height: 40px;
+        padding-top: 30px;
+        padding-right: 10px;
+        
+
+    }
+    
+  }
+}

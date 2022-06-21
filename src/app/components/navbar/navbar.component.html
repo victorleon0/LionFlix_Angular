@@ -1,0 +1,18 @@
+<div class="navbar">
+    <div class="divlogo">
+        <img class="logo" src="{{navbar.logo.src}}">
+    </div>
+    <div class="divnavbar">
+        <ul class="list">
+            <li *ngFor="let link of navbar.submenu" class="submenu">
+                <a class="url" href="{{ link.url }}">{{ link.title }}</a>
+            </li>
+        </ul>
+
+    </div>
+    <div class="divicons">
+        <img src="{{navbar.search.src}}">
+        <img src="{{navbar.bell.src}}">
+        <img src="{{navbar.user.src}}">
+    </div>
+</div>
