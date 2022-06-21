@@ -2,24 +2,29 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    top: -200px;
+    top: -360px;
     padding-left: 40px;
     gap: 20px;
-    h2 {
-        font-size: 30px;
-    }
+    margin-bottom: 20px;
+    
     ul {
         display: flex;
         flex-direction: row;
-        gap: 2px;
+        gap: 4px;
     }
     .film {
         width: 222px;
         height: 124px;
-        border: 1px solid black;
         object-fit: cover;
-        :hover.film {
-            transform: scale(1.4); 
-        }
+        
     }
+    :hover {
+    transform: scale(1.1);
 }
+
+    
+}
+
+h2 {
+        font-size: 30px;
+    }
