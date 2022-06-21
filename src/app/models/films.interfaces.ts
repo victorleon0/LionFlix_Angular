@@ -18,7 +18,7 @@ export interface ImageInterface {
     alt: string;
 }
 
-export interface FilmsInterface{
+export interface MoviesInterface {
     title: string;
     gallery: ImageInterface[]
 }

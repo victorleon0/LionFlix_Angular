@@ -1,0 +1,25 @@
+.films {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    top: -200px;
+    padding-left: 40px;
+    gap: 20px;
+    h2 {
+        font-size: 30px;
+    }
+    ul {
+        display: flex;
+        flex-direction: row;
+        gap: 2px;
+    }
+    .film {
+        width: 222px;
+        height: 124px;
+        border: 1px solid black;
+        object-fit: cover;
+        :hover.film {
+            transform: scale(1.4); 
+        }
+    }
+}
