@@ -1,1 +1,19 @@
-<p>hero works!</p>
+<div class="portada">
+  <video src="{{ principalHome.gallery.src }}"  loop></video>
+  <div class="infoportada">
+  <h1 class="title">{{ principalHome.title }}</h1>
+  <div class="buttons">
+    <button type="button" class="buttonplay">
+      <img class="iconplay" src="{{ principalHome.play.src }}" /><p>{{
+        principalHome.play.text
+      }}</p>
+    </button>
+    <button type="button" class="buttonmore">
+      <img class="iconmore" src="{{ principalHome.more.src }}" />
+      <p>{{
+        principalHome.more.text
+      }}</p>
+    </button>
+  </div>
+  </div>
+</div>
