@@ -1,0 +1,65 @@
+form {
+    position: relative;
+    top: -300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+    
+    .divUsername {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        width: 300px;
+        padding: 10px;
+        border: none;
+        background-color: rgb(86, 86, 86);
+    }
+    .divPassword {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        width: 300px;
+        padding: 10px;
+        border: none;
+        background-color: rgb(86, 86, 86);
+        div {
+            background-color: rgb(223, 101, 101)
+        }
+
+    }
+    .divrePassword {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        width: 300px;
+        padding: 10px;
+        border: none;
+        background-color: rgb(86, 86, 86);
+
+    }
+}
+label {
+    font-size: 20px;
+    color: rgb(137, 5, 5);
+}
+input {
+    width: 280px;
+    border-radius: 20px;
+    height: 30px;
+}
+h2 {
+    align-items: center;
+    margin-bottom: 15px;
+    font-size: 40px;
+}
+button {
+    width: 100px;
+    height: 40px;
+    border: 1px solid whitesmoke ;
+    margin-top: 20px;
+    :hover {
+        background-color: rgb(236, 141, 141);
+    }
+}
