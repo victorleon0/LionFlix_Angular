@@ -13,6 +13,18 @@ export interface HeroInterface {
     more: ButtonInterface;
 }
 
+export interface UserInterface {
+    username: string;
+    password: string;
+    rePassword: string;
+}
+
+export interface FormInterface {
+    comment: string;
+    email: string;
+    reEmail: string;
+}
+
 export interface ImageInterface {
     src: string;
     alt: string;

@@ -1,6 +1,6 @@
 <div class="films">
     <h2 class="filmtitle">{{film.title}}</h2>
-    <ul>
+    <ul class="scrolling-wrapper">
         <li  *ngFor="let film of film.gallery">
             <img class="film" src="{{film.src}}" alt="{{film.alt}}">
         </li>

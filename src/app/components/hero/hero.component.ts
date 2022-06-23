@@ -14,7 +14,7 @@ export class HeroComponent implements OnInit {
     this.principalHome = {
       title: 'JURASSIC WORLD - Dominion',
       gallery: {
-        src: '../../assets/images/Video/JURASSIC.mp4',
+        src: '../../assets/images/Video/JURASSIC.webm',
         alt: "Trailer"
       },
       play: {

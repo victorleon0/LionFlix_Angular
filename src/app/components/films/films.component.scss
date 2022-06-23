@@ -21,8 +21,12 @@
     :hover {
     transform: scale(1.1);
 }
+}
 
-    
+.scrolling-wrapper {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;   
 }
 
 h2 {

@@ -11,7 +11,7 @@ import { FilmsComponent } from './components/films/films.component';
     AppComponent,
     NavbarComponent,
     HeroComponent,
-    FilmsComponent
+    FilmsComponent,
   ],
   imports: [
     BrowserModule
